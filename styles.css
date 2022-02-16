@@ -3,6 +3,14 @@ h1 {
     color: white;
     text-align: center;
     font: bold
-    
 
+}
+h2 {
+    color: darkgoldenrod;
+    text-align: center;
+    text-decoration: underline;
+
+}
+h3 {
+    text-align: center;
 }
