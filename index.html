@@ -33,6 +33,59 @@
 <div class="intro">
    <h2> Welcome to beauiful European city of Bruges, Belgium. Plan your perfect visit to a historic city with plenty of modern charm. Explore what many call the "Venice of the North" and take in everything Bruges has to offer.</h2>
 
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/grote-markt-square-bruges-belgium-shutterstock_388496926.jpg" style="width:100%">
+      <div class="text">Bruges Market Square</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/f4f4910a323a43d6930148699c3c7b3b73eb8441126240de93520f6290363c94d726c4d3e5de49e9950b0a9b442e2540_54_990x660.jpg" style="width:100%">
+      <div class="text">Basillica in Bruges</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/brugge-5310508_960_720.jpg" style="width:100%">
+      <div class="text">Bruges Canals</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+
+
    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d159790.60192680042!2d3.0820264880131387!3d51.26091441760515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c350d0c11e420d%3A0x1aa2f35ac8834df7!2sBruges%2C%20Belgium!5e0!3m2!1sen!2sus!4v1646691697602!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"> 
     
     <div class="getty embed image" 
