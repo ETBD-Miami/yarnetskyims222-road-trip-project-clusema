@@ -1,13 +1,13 @@
 h1 {
     background-color: darkolivegreen;
-    color: white;
+    color: antiquewhite;
     text-align: center;
     font-size: 60px;
     font-family: 'Sansita Swashed', cursive;
 
 }
 h2 {
-    color: darkgoldenrod;
+    color: darkolivegreen;
     text-align: center;
     font-weight: bolder;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -23,7 +23,8 @@ p {
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+body 
+{background-color: antiquewhite;}
 
 img { width: 100%;
 margin-left: auto;
@@ -48,7 +49,7 @@ margin-right: auto; }
      margin: 2em auto 2em auto;
      padding: 2em;
         width: 800px;
-        border: 7px solid darkolivegreen;
+        border: 7px solid darkgoldenrod;
        }
        nav ul {
         display: flex;
@@ -66,7 +67,7 @@ margin-right: auto; }
         padding: 0.75em;
         margin: 0.25em;  
         background-color: darkgoldenrod;
-        color: white;  
+        color: antiquewhite;  
         text-align: center;
         text-decoration: none;  
         border-radius: 10px;
@@ -117,7 +118,7 @@ margin-right: auto; }
         width: auto;
         margin-top: -22px;
         padding: 16px;
-        color: white;
+        color: antiquewhite;
         font-weight: bold;
         font-size: 18px;
         transition: 0.6s ease;
